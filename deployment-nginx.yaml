@@ -21,4 +21,6 @@ spec:
       - image: nginx:stable
         name: nginx
         resources: {}
+        ports:
+        - containerPort: 80
 status: {}
